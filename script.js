@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT TOC for Questions
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Adds a floating table of contents (TOC) for your questions on the ChatGPT chat page.
 // @author       BruceYu
 // @match        https://chatgpt.com/c/*
@@ -35,6 +35,7 @@
 
         const tocIcon = document.createElement('div');
         tocIcon.classList.add('toc-icon')
+        tocIcon.style.color = '#666';
         tocIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M4 6h18v2H4zm0 6h18v2H4zm0 6h18v2H4zm0 6h18v2H4zM26 6h2v2h-2zm0 6h2v2h-2zm0 6h2v2h-2zm0 6h2v2h-2z"/></svg>'
 
         tocContainer.appendChild(tocIcon)
