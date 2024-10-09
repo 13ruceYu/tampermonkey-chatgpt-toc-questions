@@ -8,6 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @source       https://github.com/13ruceYu/tampermonkey-chatgpt-toc-questions
 // ==/UserScript==
 
 (function () {
