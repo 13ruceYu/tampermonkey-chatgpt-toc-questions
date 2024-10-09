@@ -9,6 +9,7 @@
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @source       https://github.com/13ruceYu/tampermonkey-chatgpt-toc-questions
+// @license      MIT
 // ==/UserScript==
 
 (function () {
